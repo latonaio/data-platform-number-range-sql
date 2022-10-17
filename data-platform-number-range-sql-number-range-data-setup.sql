@@ -1,0 +1,27 @@
+LOCK TABLES `data_platform_number_range_number_range_data` WRITE;
+
+INSERT INTO `data_platform_number_range_number_range_data` (`ServiceLabel`, `FieldNameWithNumberRange`, `NumberRangeFrom`, `NumberRangeTo`)
+VALUES
+    ('BUSINESS_PARTNER', 'BusinessPartner', '1', '9999999')
+    ('QUOTATIONS', 'Quotation', '20000000', '29999999')
+    ('QUOTATIONS', 'QuotationItem', '1', '999999')
+    ('PURCHASE_REQUISITION', 'PurchaseRequisition', '30000000', '39999999')
+    ('PURCHASE_REQUISITION', 'PurchaseRequisitionItem', '1', '999999')
+    ('ORDERS', 'OrderID', '1', '9999999')
+    ('ORDERS', 'OrderItem', '1', '999999')
+    ('ORDERS', 'ScheduleLine', '1', '999')
+    ('DELIVERY_DOCUMENT', 'DeliveryDocument', '80000000', '89999999')
+    ('DELIVERY_DOCUMENT', 'DeliveryDocumentItem', '1', '999999')
+    ('DELIVERY_DOCUMENT', 'ScheduleLine', '1', '999')
+    ('INVOICE_DOCUMENT', 'InvoiceDocument', '90000000', '99999999')
+    ('INVOICE_DOCUMENT', 'InvoiceDocumentItem', '1', '999999')
+    ('GOODS_MOVEMENT_DOCUMENT', 'GoodsMovementDocument', '50000000', '59999999')
+    ('GOODS_MOVEMENT_DOCUMENT', 'GoodsMovementDocumentItem', '1', '999999')
+    ('ACCOUNTING_DOCUMENT', 'AccountingDocument', '10000000', '19999999')
+    ('ACCOUNTING_DOCUMENT', 'AccountingDocumentItem', '1', '999999')
+    ('PRICE_MASTER', 'ConditionRecord', '40000000', '49999999')
+    ('PRICE_MASTER', 'ConditionSequentialNumber', '1', '999999')
+    ('PAYMENT_REQUISITION', 'PaymentRequisitionID', '1', '999999')
+    ('BANK_STATEMENT', 'BankStatementID', '1', '999999')
+    ('BANK_STATEMENT', 'MemoRecordNumber', '1', '999999')
+UNLOCK TABLES;
