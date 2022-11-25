@@ -1,6 +1,6 @@
 LOCK TABLES `data_platform_number_range_number_range_data` WRITE;
 
-INSERT INTO `data_platform_number_range_number_range_data` (`NumberRangeID`,　`ServiceLabel`, `FieldNameWithNumberRange`, `NumberRangeFrom`, `NumberRangeTo`)
+INSERT INTO `data_platform_number_range_number_range_data` (`NumberRangeID`, `ServiceLabel`, `FieldNameWithNumberRange`, `NumberRangeFrom`, `NumberRangeTo`)
 VALUES
     ('00-00', 'BUSINESS_PARTNER', 'BusinessPartner', '1', '9999999');
     ('01-00', 'ORDERS', 'OrderID', '1', '9999999');
@@ -19,6 +19,7 @@ VALUES
     ('08-60', 'DELIVERY_DOCUMENT', 'ScheduleLine', '1', '999');
     ('09-00', 'INVOICE_DOCUMENT', 'InvoiceDocument', '90000000', '99999999');
     ('09-40', 'INVOICE_DOCUMENT', 'InvoiceDocumentItem', '1', '999999');
+    ('12-00', 'PURCHASING_INFO_RECORD', 'PurchasingInfoRecord', '120000000', '129999999');
     ('20-00', 'PAYMENT_REQUISITION', 'PaymentRequisitionID', '200000000', '299999999');
     ('30-00', 'BANK_STATEMENT', 'BankStatementID', '300000000', '399999999');
     ('30-40', 'BANK_STATEMENT', 'MemoRecordNumber', '1', '999999');
