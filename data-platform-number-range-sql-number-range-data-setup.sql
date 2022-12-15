@@ -3,9 +3,10 @@ LOCK TABLES `data_platform_number_range_number_range_data` WRITE;
 INSERT INTO `data_platform_number_range_number_range_data` (`NumberRangeID`, `ServiceLabel`, `FieldNameWithNumberRange`, `NumberRangeFrom`, `NumberRangeTo`)
 VALUES
 ('00-00', 'BUSINESS_PARTNER_GENERAL', 'BusinessPartner', '1', '9999999');
-('01-00', 'ORDERS', 'OrderID', '1', '9999999');
-('01-40', 'ORDERS', 'OrderItem', '1', '999999');
-('01-60', 'ORDERS', 'ScheduleLine', '1', '999');
+('00-00', 'ORDERS', 'OrderID', '1', '9999999');
+('00-40', 'ORDERS', 'OrderItem', '1', '999999');
+('00-60', 'ORDERS', 'ScheduleLine', '1', '999');
+('01-00', 'SUPPLY_CHAIN_RELATIONSHIP', 'SupplyChainRelationshipID', '10000000', '19999999');
 ('02-00', 'QUOTATIONS', 'Quotation', '20000000', '29999999');
 ('02-40', 'QUOTATIONS', 'QuotationItem', '1', '999999');
 ('03-00', 'PURCHASE_REQUISITION', 'PurchaseRequisition', '30000000', '39999999');
@@ -21,8 +22,7 @@ VALUES
 ('09-40', 'INVOICE_DOCUMENT', 'InvoiceDocumentItem', '1', '999999');
 ('12-00', 'PURCHASING_INFO_RECORD', 'PurchasingInfoRecord', '120000000', '129999999');
 ('24-00', 'PRODUCTION_ORDER', 'ProductionOrder', '240000000', '249999999');
-('50-00', 'PAYMENT_REQUISITION', 'PayerPaymentRequisitionID', '500000000', '509999999');
-('50-40', 'PAYMENT_REQUISITION', 'PayerPaymentRequisitionItem', '1', '999999');
+('50-00', 'PAYMENT_REQUISITION', 'PaymentRequisitionID', '500000000', '509999999');
 ('51-00', 'BANK_STATEMENT', 'BankStatementID', '510000000', '519999999');
 ('51-40', 'BANK_STATEMENT', 'MemoRecordNumber', '1', '999999');
 ('52-00', 'FIN_INST_CUSTOMER', 'InternalFinInstCustomerID', '520000000', '529999999');
