@@ -9,7 +9,8 @@ https://api.XXXXXXXX.com/api/OP_API_XXXXXXX_XXX/overview
 data-platform-number-range-sql には、sqlの設定ファイルとして以下のsqlファイルが含まれています。  
 
 * data-platform-number-range-sql-number-range-data.sql （データ連携基盤 番号範囲 - 番号範囲データ）
-* data-platform-number-range-sql-number-range-data-setup.sql（データ連携基盤 番号範囲 - 番号範囲 の設定）
+* data-platform-number-range-sql-number-range-data-setup.sql（データ連携基盤 番号範囲 - 番号範囲データの設定）
+* data-platform-number-range-sql-latest-number-data.sql （データ連携基盤 番号範囲 - 最新の番号データ）
 
 ## 設定値
 setupファイルには、各テーブルに対応した設定値が含まれています。  
